@@ -1,40 +1,56 @@
-* {
-    box-sizing: border-box;
-    text-align: center;
-  }
-
-  body {
+body {
     font-size: 24px;
     line-height: 32px;
     color: #777777;
-    background: darkgray;
     margin: 20px 100px 20px 100px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
-  }
+    background-image: url("images/about_me.JPG");
+}
 
 #heading {
     background: #eee;
-    width: 100%;
+    width: 1000px;
     clear: both;
     height: 100px;
 }
 
 #nav {
-    margin: 10px 10px 10px 10px;
+    margin: 30px 30px 20px 30px;
     float: right;
-    width: 33%;
-    margin-right: 30px;
-    margin-top: 60px;
+    width: 33%;    
+}
+
+#portfolio_side_bar {
+    padding-bottom: 12px;
+    padding-top: 3px;
+}
+
+#contact_side_bar {
+    padding-bottom: 12px;
+    padding-top: 3px;
+}
+
+#about_side_bar {
+    padding-bottom: 12px;
+    padding-top: 3px;
+}
+
+#side_bar1 {
+    color: lightgray;
+}
+
+#side_bar2 {
+    color: lightgray;
 }
 
 header {
     color: #ffffff;
     background-color: #4aaaa5;
     float: left;
-    width: 33%;
-    margin-left: 40px;
-    margin-top: 70px;
+    width: 200px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-left: 100px;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -56,8 +72,10 @@ li a {
     color: #777777;
 }
 
-
-
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+    color: #4aaa;
+}
 
 
 
